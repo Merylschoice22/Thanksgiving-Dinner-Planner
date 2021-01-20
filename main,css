@@ -1,0 +1,292 @@
+body{
+    background-color: rgb(243, 174, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid brown;
+    padding: 20px 20px;
+    }
+
+h1{
+        font-family: fantasy;
+        font-size: 50px;
+        margin: 0 0 0;
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: auto;
+}
+ 
+
+.cartoon-turkey{
+    border-radius: 150px;
+    float: left;
+    margin: 30px 100px 100px 0;
+}
+
+nav ul li{
+    background-color: rgb(255, 196, 0);
+    border: 2px solid brown;
+    border-radius: 3px;
+    color: chocolate;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 4px 10px;
+}
+
+a{
+    padding: 5px;
+}
+td a:visited{
+    font-style: italic;
+}
+
+td a:hover{
+    background-color: rgb(241, 163, 89);
+    border-radius: 7px;
+}
+
+span{
+margin: 0;
+}
+
+.date{
+font-size: 16px;
+font-weight: bold;
+font-style: italic;
+margin: 30px 10px 15px 0;
+text-align: right;
+}
+.welcome{
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+h2, #welcome{
+    font-size: 46px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#welcome{
+    margin: 5px;
+}
+
+div.activities{
+    margin: 0;
+    text-align: left;
+}
+#activities{
+    clear: both;
+    margin: 0;
+}
+
+div.activities-left{
+    float: left;
+    margin-left: 5px;
+    width: 30%;
+}
+
+.song{
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    
+}
+div.activities-middle{
+    float: right;
+    width: 30%;
+}
+
+
+img.activities-middle{
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+div.activities-right{
+    float: right;
+    line-height: 35px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+#food{
+    clear:both;
+    margin: 0;
+}
+
+.dishes{
+    background-color: rgb(247, 222, 191);
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    text-align: left;
+    width: 20%;
+}
+
+.dishes li{
+    font-size: 22px;
+    margin: 15px 0;
+
+}
+
+.food-collage{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 75%;
+}
+.img1{
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    z-index: 7;
+}
+
+.img2{
+    border-radius: 40px;
+    position: relative;
+    top: 0px;
+    left: 250px;
+    z-index: 3;
+}
+
+.img3{
+    border-radius: 40px;
+    position: relative;
+    top: -10px;
+    right: 490px;
+    z-index: 4;
+}
+
+.img4{
+    border-radius: 40px;
+    position: relative;
+    top: 55px;
+    left: 200px;
+    z-index: 1;
+}
+
+.img5{
+    border-radius: 40px;
+    position: relative;
+    bottom: 50px;
+    left: 160px;
+    z-index: 2;
+}
+
+.img6{
+    border-radius: 40px;
+    position: relative;
+    bottom: 30px;
+    right: 400px;
+    z-index: 3;
+}
+
+.img7{
+    border-radius: 40px;
+    position: relative;
+    bottom: 480px;
+    left: 0px;
+    z-index: 4;
+}
+
+.ingredients{
+    clear: both;
+    position: relative;
+    bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px; 
+    
+}
+th, td {
+    border: 2px solid brown;
+    border-collapse: collapse;
+    padding: 10px; 
+}
+
+th{
+    background-color: rgb(184, 200, 221);
+}
+
+td{
+    background-color: rgb(219, 178, 137);
+}
+
+.recipes{
+    column-count: 1;
+    column-gap: 1em;
+    text-align: left;
+    overflow: auto;
+}
+
+.recipeA, .recipeB{
+    float: left;
+    font-size: 16px;
+    padding: 0 20px;
+    width: 25%;
+    margin: 5px;
+}
+
+.recipeA{
+    background-color: rgb(186, 207, 182);
+    border: 4px dashed rgb(56, 117, 56);
+}
+
+.recipeB{
+    background-color: rgb(250, 229, 162);
+    border: 4px dashed rgb(231, 172, 10);
+   
+}
+
+.recipeC{
+    background-color: rgb(186, 207, 182);
+    border: 4px dashed rgb(56, 117, 56);
+    float: left;
+    font-size: 16px;
+    padding: 0 20px;
+    width: 60%;
+    margin: 5px;
+}
+
+.recipeD{
+    background-color: rgb(241, 184, 177);
+    border: 4px dashed rgb(192, 45, 34);
+    float: left;
+    font-size: 16px;
+    padding: 0 20px 30px;
+    width: 25%;
+    margin: 5px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(107, 10, 10);
+    border:2px solid rgb(92, 5, 5);
+    color: white;
+    font-style: italic;
+    height: 60px;
+    width: auto;
+    
+}
+
